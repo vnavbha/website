@@ -29,9 +29,10 @@ img {
   max-width: 100%;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
+  line-height: 1.5;
 }
 
 /* -------------------------------- 
