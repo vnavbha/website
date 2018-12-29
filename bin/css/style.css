@@ -41,8 +41,8 @@ Modules - reusable parts of our design
 -------------------------------- */
 .cd-container {
   /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
-  width: 90%;
-  max-width: 1170px;
+  width: 95%;
+  max-width: 100%;
   margin: 0 auto;
 }
 .cd-container::after {
@@ -317,7 +317,8 @@ footer p {
 }
 .cd-timeline-content ul {
   margin: 1em 0;
-  line-height: 1.6;
+  line-height: 2.6;
+  list-style-type: square;
 }
 .cd-timeline-content .cd-read-more {
   float: right;
